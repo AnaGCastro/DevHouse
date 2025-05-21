@@ -55,6 +55,36 @@
 
        <main class="w-full flex flex-col pb-4">
 
+        <!--MENU MOBILE-->
+        <div id="menu" class="absolute z-50 w-full hidden  flex-col items-center px-3 py-2 bg-white shadow-xl">
+            <button id="btn-close" onclick="closeMenu()" class="text-3xl text-bold mt-4">X</button>
+            <nav class=" flex flex-col mt-8 gap-5 w-full">
+                        <a href="#"
+                class="text-gray-500 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">
+                    Aluguel
+                </a>
+
+                  <a href="#"
+                class="text-gray-500 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">
+                    Comprar
+                </a>
+
+                  <a href="#"
+                class="text-gray-500 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">
+                    Serviços
+                </a>
+
+                  <a href="#"
+                class="text-gray-500 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">
+                    Contatos
+                </a>
+
+            </nav>
+
+        </div>
+
+        <!--FIM MENU MOBILE-->
+
         <!-- Header -->
          <header class="bg-white w-full py-5 px-3 flex flex-row items-center justify-between">
 
@@ -63,7 +93,7 @@
                 <input
                 type="text"
                 class="w-full bg-slate-100 px-2 outline-none"
-                placeholder="Procurando algum apartamento"
+                placeholder="Procurando apartamento"
                 />
             </div>
 
@@ -75,7 +105,10 @@
                 <button  class="bg-purple-700 hover:bg-purple-600 duration-300 text-white flex items-center justify-center gap-2 px-4 py-2 rounded font-medium"> 
                     <span class="hidden md:flex">Sign In</span>
                     <i class="fa fa-user md:ml-1"></i>
+                </button>
 
+                <button  id="btn-open" onclick="openMenu()" class="sm:hidden flex items-center justify-center px-4 py-2">
+                    <i class="fa fa-bars" style="font-size: 24px"></i>
                 </button>
 
             </div>
@@ -88,5 +121,6 @@
 
     </div>
     
+    <script  type="text/javascript" src="script.js"></script>
 </body>
 </html>
