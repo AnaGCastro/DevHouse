@@ -4,10 +4,10 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      backgroundImage: {
-        'uber': "url('./src/assets/bguber.png')",
-        'city': "url('./src/assets/bg-city.png')"
-      },
+      fontFamily: {
+        "sans": ["Poppins ", "sans-serif"],
+      }
+   
     },
   },
   plugins: [],
