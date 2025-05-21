@@ -1,10 +1,9 @@
 {
-  "name": "uber",
+  "name": "devhouse",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "tailwind.config.js",
   "scripts": {
     "dev": "npx @tailwindcss/cli -i ./style/style.css -o ./style/output.css --watch"
-  
   },
   "keywords": [],
   "author": "",
