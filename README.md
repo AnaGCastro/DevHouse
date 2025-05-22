@@ -2,7 +2,7 @@
 
 DevHouse é um projeto inspirado no Airbnb, com o objetivo de praticar e revisar os conceitos aprendidos em HTML, CSS e principalmente **Tailwind CSS**. A aplicação exibe uma vitrine de imóveis para **compra ou aluguel**, organizada com **grid layout** para reforçar o domínio dessa ferramenta de estilização.
 
-![Apresentação do DevHouse](DevHouseApresentacao.jpg)
+![Apresentação do DevHouse](DevHouse.png)
 
 
 > 🔧 Projeto desenvolvido no **VS Code** e versionado com **GitHub**.
